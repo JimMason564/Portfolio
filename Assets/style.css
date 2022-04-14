@@ -1,0 +1,35 @@
+:root {
+    --main: blue;
+    --sec: yellow;
+}
+
+*{
+    color: var(--sec);
+    background-color: var(--main);
+}
+.name{
+    font-size: x-large;
+    font-weight:bold;
+}
+nav{
+    float:right;
+}
+
+.mypicture {
+    height:30px;
+    width:30px;
+    border-radius:30%;
+    float:right;
+}
+section {
+    flex-wrap: wrap;
+}
+.refractoring {
+    size:200px;
+    width:500px;
+    flex-direction: column;
+}
+.app {
+    size:100px;
+    width:200px;
+}
